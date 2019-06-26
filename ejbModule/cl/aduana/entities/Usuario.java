@@ -87,9 +87,7 @@ public class Usuario implements Serializable {
 		return this.ventas;
 	}
 
-	public void setVentas(List<Venta> ventas) {
-		this.ventas = ventas;
-	}
+	
 
 	public Venta addVenta(Venta venta) {
 		getVentas().add(venta);
@@ -104,5 +102,4 @@ public class Usuario implements Serializable {
 
 		return venta;
 	}
-
 }
